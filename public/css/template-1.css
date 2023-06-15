@@ -176,3 +176,38 @@
 h1 {
 	text-shadow: 0px 0px 10px rgba(180, 3, 3, 0.534);
 }
+
+.plans_card:nth-child(2) {
+	visibility: hidden;
+}
+
+.hero_text{
+	background: gray;
+
+	max-width: 250px;
+	width: 200px;
+
+	hyphens: manual;
+
+	overflow: auto;
+	resize: both;
+	word-spacing: 10px;
+
+
+}
+
+.overflow {
+	overflow-wrap: anywhere;
+}
+
+.hero_title {
+	max-width: 660px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	height: 65px;
+	overflow: hidden;
+
+	text-overflow: ellipsis;
+
+	white-space: nowrap;
+}

@@ -184,8 +184,8 @@ h1 {
 .hero_text{
 	background: gray;
 
-	max-width: 250px;
-	width: 200px;
+	max-width: 350px;
+	width: 300x;
 
 	hyphens: manual;
 
@@ -210,4 +210,22 @@ h1 {
 	text-overflow: ellipsis;
 
 	white-space: nowrap;
+}
+
+.page {
+	/* background-image: url('/img/test2.jpeg');
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover; */
+}
+
+.hero_text {
+	padding: 40px;
+	color: green;
+
+	border-image-source: url('/img/test2.jpeg');
+	border-image-width: 10% 10%;
+	border-image-slice: 10% 10%;
 }

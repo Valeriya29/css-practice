@@ -170,6 +170,7 @@
 .featured {
 	display: flex;
 	gap: 80px;
+
 }
 
 .card {
@@ -178,6 +179,7 @@
 	align-items: flex-start;
 	gap: var(--space-l);
 	padding: 0 26px;
+	width: 100%;
 }
 
 .card_photo {
